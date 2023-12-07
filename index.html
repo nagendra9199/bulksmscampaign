@@ -16,11 +16,11 @@
             <div></div>
             <div class="navbar-main-container">
                 <div class="navbar-list-items">
-                    <a href=""><p>Home</p></a>
-                    <a href=""><p class="our-services">Our Services</p></a>
-                    <a href=""><p>About US</p></a>
-                    <a href=""><p>Pricing</p></a>
-                    <a href=""><p>Cotact Us</p></a>
+                    <a href="#home"><p>Home</p></a>
+                    <a href="#ourServices"><p class="our-services">Our Services</p></a>
+                    <a href="#obd"><p>About US</p></a>
+                    <a href="#pricing"><p>Pricing</p></a>
+                    <a href="#contactUs"><p>Cotact Us</p></a>
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@
         <div class="home-main-container">
             
             <img src="images/backgroundwebsite.png" class="background-image" loading="lazy"/>
-            <div class="whatsapp-main-container">
+            <div class="whatsapp-main-container" id="home">
 
                 <div class="whatsapp-image-container">
                     <div class="image-container">
@@ -54,7 +54,7 @@
             </div>
 
     
-            <div class="obd-calls-main-container">
+            <div class="obd-calls-main-container" id="obd">
                 <h1 class="obd-calls-heading">What we do in <span>OBD Campaign</span></h1>
                     <div class="hr-design">
                         <hr>
@@ -102,15 +102,15 @@
                         <p>Utilizes random virtual numbers for delivery.</p>
                     </div>
                 </div>
-                <form class="user-obd" id="userForm">
-                    <input class="input-obd" type="number" id="mobile" placeholder="Enter Your Mobile Number"/>
-                    <button class="obd-submit" id="submitBtn">Try Demo</button>
+                <form class="user-obd" id="userFormObd">
+                    <input class="input-obd" type="number" id="mobileobd" placeholder="Enter Your Mobile Number"/>
+                    <button class="obd-submit" id="submitBtnObd">Try Demo</button>
                 </form>
             </div>
 
 
             
-            <div class="sms-main-container">
+            <div class="sms-main-container" id="sms">
                 <h1 class="sms-campaign-head">What We do in <span>SMS Campaign</span></h1>
                 <div class="hr-design-sms">
                     <hr>
@@ -154,13 +154,13 @@
                     </div>
                     
                 </div>
-                <form class="user-obd" id="userForm">
-                    <input class="input-obd" type="number" id="mobile" placeholder="Enter Your Mobile Number"/>
-                    <button class="obd-submit" id="submitBtn">Try Demo</button>
+                <form class="user-obd" id="userFormsms">
+                    <input class="input-obd" type="number" id="mobilesms" placeholder="Enter Your Mobile Number"/>
+                    <button class="obd-submit" id="submitBtnsms">Try Demo</button>
                 </form>
             </div>
 
-            <div class="our-services-main-container">
+            <div class="our-services-main-container" id="ourServices">
                 <h1 class="ourservices-heading">Our Services</h1>
                     <div class="hr-design-services">
                         <hr>
@@ -175,11 +175,11 @@
                             <h1>We provide the best WhatsApp marketing platform to easily grow your business.</h1>
                             <p>Max Allow 10 campaigs in a day</p>
                             <p>Max Allowed size for image/pdf is 01MB each only</p>
-                            <form id="userForm">
+                            <form id="userFormservice">
                                 <div>
-                                    <input type="number" placeholder="Enter Your Mobile Number" class="input-service" id="mobile"/>
+                                    <input type="number" placeholder="Enter Your Mobile Number" class="input-service" id="mobileservice"/>
                                     <div class="service-submit-button-container">
-                                        <button class="service-submit-button" id="submitBtn">Try Demo</button>
+                                        <button class="service-submit-button" id="submitBtnservice">Try Demo</button>
                                     </div>
                                </div>
                             </form>
@@ -193,7 +193,9 @@
                                 <div class="service-whatsapp-content-container">
                                     <div class="service-content-each-container">
                                         <h1><span>01 </span>Whatsapp Services</h1>
-                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual available.</p>
+                                        <p>WhatsApp Bulk SMS service - efficient, reliable, and tailored for impactful outreach."
+
+                                            Empower your campaigns with the reach of WhatsApp! Our Bulk SMS service ensures seamless communication.</p>
                                     </div>
                                 </div>
                             </div>
@@ -207,7 +209,7 @@
                                 <div class="service-whatsapp-content-container">
                                     <div class="service-content-each-container">
                                         <h1><span>02 </span>SMS Services</h1>
-                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual available.</p>
+                                        <p>Elevate your campaign strategy with our SMS service! From important announcements to targeted promotions, ensure your message is delivered directly to your audience's phones for maximum impact.</p>
                                     </div>
                                 </div>
                             </div>
@@ -222,7 +224,7 @@
                                 <div class="service-whatsapp-content-container">
                                     <div class="service-content-each-container">
                                         <h1><span>03 </span>OBD Calls Services</h1>
-                                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual available.</p>
+                                        <p>Boost your campaign effectiveness with OBD Calls! From candidate achievements to event announcements, our service ensures your message is delivered effectively through mass voice call campaigns.</p>
                                     </div>
                                 </div>
                             </div>
@@ -237,7 +239,7 @@
             </div>
 
 
-            <div class="pricing-main-container">
+            <div class="pricing-main-container" id="pricing">
                 <div class="pricing-image-container">
                     <div class="pricing-head-sub-head-flex">
                         <div class="pricing-head-container">
@@ -262,9 +264,9 @@
                                 <p>Delivers 09am to 06pm / Monday - Saturday</p>
 
                             </div>
-                            <form id="userForm" class="user-form-pricing">
-                                <input type="number" id="mobile" placeholder="Enter Your Mobile Number" class="input-pricing"/>
-                                <button class="button-pricing">Try Demo</button>
+                            <form id="userFormpricewhatsapp" class="user-form-pricing">
+                                <input type="number" id="mobilepricewhatsapp" placeholder="Enter Your Mobile Number" class="input-pricing"/>
+                                <button class="button-pricing" id="submitBtnpricewhatsapp">Try Demo</button>
                             </form>
                         </div>
 
@@ -279,9 +281,9 @@
                                 <p>Delivers 09am to 06pm / Monday - Saturday</p>
 
                             </div>
-                            <form id="userForm" class="user-form-pricing">
-                                <input type="number" id="mobile" placeholder="Enter Your Mobile Number" class="input-pricing"/>
-                                <button class="button-pricing">Try Demo</button>
+                            <form id="userFormpricesms" class="user-form-pricing">
+                                <input type="number" id="mobilepricesms" placeholder="Enter Your Mobile Number" class="input-pricing"/>
+                                <button class="button-pricing" id="submitBtnpricesms">Try Demo</button>
                             </form>
                         </div>
 
@@ -296,9 +298,9 @@
                                 <p>Delivers 09am to 06pm / Monday - Saturday</p>
 
                             </div>
-                            <form id="userForm" class="user-form-pricing">
-                                <input type="number" id="mobile" placeholder="Enter Your Mobile Number" class="input-pricing"/>
-                                <button class="button-pricing">Try Demo</button>
+                            <form id="userFormpriceobd" class="user-form-pricing">
+                                <input type="number" id="mobilepriceobd" placeholder="Enter Your Mobile Number" class="input-pricing"/>
+                                <button class="button-pricing" id="submitBtnpriceobd">Try Demo</button>
                             </form>
                         </div>
                     </div>
@@ -307,7 +309,7 @@
             <div style="height: 45vw;"></div>
 
 
-            <div class="contact-us-main-container">
+            <div class="contact-us-main-container" id="contactUs">
                 <h1 class="contact-us-head">Contact Us</h1>
                 <div class="contact-us-design">
                     <hr>
@@ -318,6 +320,8 @@
                     <div class="contact-us-image-content-container">
                         <h1 class="contact-us-content-head">Need Any Help?  Or Looking For an Send WhatsApp Bulk Messages </h1>
                         <p class="contact-us-content-para">Fill the Form We will Get back to You !!</p>
+
+                        <p class="call-us-at">Or Call Us at - 63037 67119</p>
                         <div class="contact-us-image">
                             <img src="images/contactus.png"/>
                         </div>
@@ -327,11 +331,11 @@
                     <div class="contact-us-form-container">
                         <h1 class="contact-us-form-head">Get In Touch With Us</h1>
                         <div class="flex-contact-inputs">
-                            <input type="text" placeholder="Enter Your Full Name"/>
-                            <input type="number" placeholder="Mobile Number"/>
-                            <input type="text" placeholder="Message" class="contact-us-message"/>
+                            <input type="text" placeholder="Enter Your Full Name" id="namecontact"/>
+                            <input type="number" placeholder="Mobile Number" id="mobilecontact"/>
+                            <input type="text" placeholder="Message" class="contact-us-message" id="messagecontact"/>
                             <div class="contact-send-request-btn">
-                                <button>Send Request</button>
+                                <button id="submitBtncontact">Send Request</button>
                             </div>
                         </div>
                     </div>
@@ -352,8 +356,8 @@
                 </div>
                 
                 <div class="contact-container">
-                    <p>ph no : 9989448555</p>
-                    <p>Jubilee Cyber Grande
+                    <p><i class="fa fa-phone" style="font-size:vw;"></i> Ph No : 63037 67119</p>
+                    <p><i class="fa fa-map-marker"></i> Jubilee Cyber Grande
                         5th floor  508,kavari
                         hills-500033</p>
                 </div>
@@ -371,15 +375,15 @@
                 <h2 class="popup-head">Try Free Demo</h2>
                 <form id="popupUserForm">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="namepopup" name="name" required>
         
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="emailpopup" name="email" required>
         
                     <label for="mobile">Mobile Number:</label>
-                    <input type="tel" id="mobile" name="mobile" required>
+                    <input type="tel" id="mobilepopup" name="mobile" required>
         
-                    <button type="button" onclick="submitPopupForm()">Submit</button>
+                    <button type="button" onclick="submitPopupForm()" id="submitBtnpopup" class="popupbutton">Submit</button>
                 </form>
             </div>
         </div>
@@ -388,36 +392,313 @@
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script>
 
-            /*document.addEventListener('DOMContentLoaded', function() {
+            document.addEventListener('DOMContentLoaded', function() {
                 openPopupForm();
-            });*/
+            });
 
-            const submitBtn=document.getElementById("submitBtn");
 
-            submitBtn.addEventListener('click', (event)=>{
-                event.preventDefault()
 
-                const mobile=document.getElementById("mobile").value
+            
 
-                const mobilenumber={'mobile':mobile}
+            const submitBtn = document.getElementById("submitBtn");
 
-                if (mobile===''){
-                    alert("Please Enter Mobile Number");
-                }else{
-                    fetch('https://localhost:3000/mobileData',{
-                        method:'POST',
-                        headers:{
-                            'Content-Type':'application/json'
-                        },
-                        body:JSON.stringify(mobilenumber)
+            submitBtn.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            const mobile = document.getElementById("mobile").value;
+
+            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' };
+
+            if (mobile === '') {
+                alert("Please Enter Mobile Number");
+            } else {
+                fetch('http://localhost:3000/bulksmsdata', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(mobilenumber)
+                })
+                    .then(response => response.json())
+                    .then(result => {
+                        console.log(result);
                     })
-                    .then(response=>response.json())
-                    .then(result=>{
-                        console.log(result)
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+
+                document.getElementById("userForm").reset();
+            }
+        });
+
+
+        const submitBtnObd=document.getElementById("submitBtnObd");
+
+        submitBtnObd.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            const mobile = document.getElementById("mobileobd").value;
+
+            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' };
+
+            if (mobile === '') {
+                alert("Please Enter Mobile Number");
+            } else {
+                fetch('http://localhost:3000/bulksmsdata', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(mobilenumber)
+                })
+                    .then(response => response.json())
+                    .then(result => {
+                        console.log(result);
                     })
-                    document.getElementById("userForm").reset();
-                }
-            })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+
+                document.getElementById("userFormObd").reset();
+            }
+        });
+
+
+
+
+
+        const submitBtnsms=document.getElementById("submitBtnsms");
+
+        submitBtnsms.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            const mobile = document.getElementById("mobilesms").value;
+
+            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' };
+
+            if (mobile === '') {
+                alert("Please Enter Mobile Number");
+            } else {
+                fetch('http://localhost:3000/bulksmsdata', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(mobilenumber)
+                })
+                    .then(response => response.json())
+                    .then(result => {
+                        console.log(result);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+
+                document.getElementById("userFormsms").reset();
+            }
+        });
+
+
+
+        const submitBtnservice=document.getElementById("submitBtnservice");
+
+        submitBtnservice.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            const mobile = document.getElementById("mobileservice").value;
+
+            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' };
+
+            if (mobile === '') {
+                alert("Please Enter Mobile Number");
+            } else {
+                fetch('http://localhost:3000/bulksmsdata', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(mobilenumber)
+                })
+                    .then(response => response.json())
+                    .then(result => {
+                        console.log(result);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+
+                document.getElementById("userFormservice").reset();
+            }
+        });
+
+
+
+        const submitBtnpricewhatsapp=document.getElementById("submitBtnpricewhatsapp");
+
+        submitBtnpricewhatsapp.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            const mobile = document.getElementById("mobilepricewhatsapp").value;
+
+            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' };
+
+            if (mobile === '') {
+                alert("Please Enter Mobile Number");
+            } else {
+                fetch('http://localhost:3000/bulksmsdata', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(mobilenumber)
+                })
+                    .then(response => response.json())
+                    .then(result => {
+                        console.log(result);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+
+                document.getElementById("userFormpricewhatsapp").reset();
+            }
+        });
+
+
+
+        const submitBtnpricesms=document.getElementById("submitBtnpricesms");
+
+        submitBtnpricesms.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            const mobile = document.getElementById("mobilepricesms").value;
+
+            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' };
+
+            if (mobile === '') {
+                alert("Please Enter Mobile Number");
+            } else {
+                fetch('http://localhost:3000/bulksmsdata', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(mobilenumber)
+                })
+                    .then(response => response.json())
+                    .then(result => {
+                        console.log(result);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+
+                document.getElementById("userFormpricesms").reset();
+            }
+        });
+
+
+
+
+        const submitBtnpriceobd=document.getElementById("submitBtnpriceobd");
+
+        submitBtnpriceobd.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            const mobile = document.getElementById("mobilepriceobd").value;
+
+            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' };
+
+            if (mobile === '') {
+                alert("Please Enter Mobile Number");
+            } else {
+                fetch('http://localhost:3000/bulksmsdata', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(mobilenumber)
+                })
+                    .then(response => response.json())
+                    .then(result => {
+                        console.log(result);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+
+                document.getElementById("userFormpriceobd").reset();
+            }
+        });
+
+
+
+
+        const submitBtncontact=document.getElementById("submitBtncontact");
+
+        submitBtncontact.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            const mobile = document.getElementById("mobilecontact").value;
+            const name = document.getElementById("namecontact").value
+            const message = document.getElementById("messagecontact").value
+
+            const mobilenumber = { 'name': name, 'mobile': mobile, 'email': email };
+
+            if (mobile === '') {
+                alert("Please Enter Mobile Number");
+            } else {
+                fetch('http://localhost:3000/bulksmsdata', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(mobilenumber)
+                })
+                    .then(response => response.json())
+                    .then(result => {
+                        console.log(result);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            }
+        });
+
+
+
+        const submitBtnpopup=document.getElementById("submitBtnpopup");
+
+        submitBtnpopup.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            const mobile = document.getElementById("mobilepopup").value;
+            const email = document.getElementById("emailpopup").value;
+            const name = document.getElementById("namepopup").value
+
+            const mobilenumber = { 'name': name, 'mobile': mobile, 'email': email };
+
+            if (mobile === '') {
+                alert("Please Enter Mobile Number");
+            } else {
+                fetch('http://localhost:3000/bulksmsdata', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(mobilenumber)
+                })
+                    .then(response => response.json())
+                    .then(result => {
+                        console.log(result);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+
+                document.getElementById("popupUserForm").reset();
+            }
+        });
 
 
 
@@ -438,9 +719,33 @@
                 const email = document.getElementById("email").value;
                 const mobile = document.getElementById("mobile").value;
 
-                // Validate and handle form submission as needed
+                
+                const mobilenumber = { 'name': name, 'mobile': mobile, 'email': email };
 
-                // Close the popup form
+
+
+                if (mobile === '') {
+                alert("Please Enter Mobile Number");
+            } else {
+                fetch('http://localhost:3000/bulksmsdata', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(mobilenumber)
+                })
+                    .then(response => response.json())
+                    .then(result => {
+                        console.log(result);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+
+                document.getElementById("userForm").reset();
+            }
+
+                
                 closePopupForm();
             }
 
