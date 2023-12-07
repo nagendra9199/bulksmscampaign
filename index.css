@@ -460,6 +460,7 @@ body{
     height: 4vw;
     width: 15%;
     margin-left: 1vw;
+    font-size: 1.5vw;
 }
 .user-obd{
     display: flex;
