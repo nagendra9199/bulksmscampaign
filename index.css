@@ -314,6 +314,7 @@ body{
     height: 4vw;
     border-radius: 01vw;
     border: 1px solid;
+    font-size: 1.5vw;
 }
 .popup-content button{
     border: none;
