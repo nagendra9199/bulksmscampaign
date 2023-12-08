@@ -630,8 +630,8 @@ body{
     flex-wrap: wrap;
 }
 .flex-contact-inputs input{
-    width: 35%;
-    margin: 2vw;
+    width: 33%;
+    margin: 1.5vw;
     font-size: 1.2vw;
     height: 4vw;
     border: solid 1px rgb(129, 128, 128);
