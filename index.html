@@ -42,7 +42,7 @@
                     <p class="whatsapp-content-para">To get free demo Enter your Mobile Number below </p>
                     <form id="userForm">
                         <div class="whatsapp-demo-container">
-                            <input class="whatsapp-input" type="number" id="mobile" placeholder="Enter Your Mobile Number for Demo"/>
+                            <input class="whatsapp-input" type="number" id="mobile" placeholder="Enter Mobile Number for Demo"/>
                             <div class="whatsapp-input-button-container">
                                 <button class="submit-button" id="submitBtn">Submit</button>
                             </div>
@@ -103,7 +103,7 @@
                     </div>
                 </div>
                 <form class="user-obd" id="userFormObd">
-                    <input class="input-obd" type="number" id="mobileobd" placeholder="Enter Your Mobile Number"/>
+                    <input class="input-obd" type="number" id="mobileobd" placeholder="Enter Mobile Number"/>
                     <button class="obd-submit" id="submitBtnObd">Try Demo</button>
                 </form>
             </div>
@@ -155,7 +155,7 @@
                     
                 </div>
                 <form class="user-obd" id="userFormsms">
-                    <input class="input-obd" type="number" id="mobilesms" placeholder="Enter Your Mobile Number"/>
+                    <input class="input-obd" type="number" id="mobilesms" placeholder="Enter Mobile Number"/>
                     <button class="obd-submit" id="submitBtnsms">Try Demo</button>
                 </form>
             </div>
@@ -173,11 +173,10 @@
 
                         <div class="service-content-container">
                             <h1>We provide the best WhatsApp marketing platform to easily grow your business.</h1>
-                            <p>Max Allow 10 campaigs in a day</p>
                             <p>Max Allowed size for image/pdf is 01MB each only</p>
                             <form id="userFormservice">
                                 <div>
-                                    <input type="number" placeholder="Enter Your Mobile Number" class="input-service" id="mobileservice"/>
+                                    <input type="number" placeholder="Enter Mobile Number" class="input-service" id="mobileservice"/>
                                     <div class="service-submit-button-container">
                                         <button class="service-submit-button" id="submitBtnservice">Try Demo</button>
                                     </div>
@@ -265,7 +264,7 @@
 
                             </div>
                             <form id="userFormpricewhatsapp" class="user-form-pricing">
-                                <input type="number" id="mobilepricewhatsapp" placeholder="Enter Your Mobile Number" class="input-pricing"/>
+                                <input type="number" id="mobilepricewhatsapp" placeholder="Enter Mobile Number" class="input-pricing"/>
                                 <button class="button-pricing" id="submitBtnpricewhatsapp">Try Demo</button>
                             </form>
                         </div>
@@ -282,7 +281,7 @@
 
                             </div>
                             <form id="userFormpricesms" class="user-form-pricing">
-                                <input type="number" id="mobilepricesms" placeholder="Enter Your Mobile Number" class="input-pricing"/>
+                                <input type="number" id="mobilepricesms" placeholder="Enter Mobile Number" class="input-pricing"/>
                                 <button class="button-pricing" id="submitBtnpricesms">Try Demo</button>
                             </form>
                         </div>
@@ -299,7 +298,7 @@
 
                             </div>
                             <form id="userFormpriceobd" class="user-form-pricing">
-                                <input type="number" id="mobilepriceobd" placeholder="Enter Your Mobile Number" class="input-pricing"/>
+                                <input type="number" id="mobilepriceobd" placeholder="Enter Mobile Number" class="input-pricing"/>
                                 <button class="button-pricing" id="submitBtnpriceobd">Try Demo</button>
                             </form>
                         </div>
@@ -357,9 +356,7 @@
                 
                 <div class="contact-container">
                     <p><i class="fa fa-phone" style="font-size:vw;"></i> Ph No : 63037 67119</p>
-                    <p><i class="fa fa-map-marker"></i> Jubilee Cyber Grande
-                        5th floor  508,kavari
-                        hills-500033</p>
+                    <p><i class="fa fa-map-marker"></i> Plot 67, Road Number 9A, C Cube building, Jubilee Hills, Hyderabad, Telangana 500033</p>
                 </div>
             </div>
 
@@ -407,7 +404,7 @@
 
             const mobile = document.getElementById("mobile").value;
 
-            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' };
+            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' , 'message':''};
 
             if (mobile === '') {
                 alert("Please Enter Mobile Number");
@@ -439,7 +436,7 @@
 
             const mobile = document.getElementById("mobileobd").value;
 
-            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' };
+            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '','message':'' };
 
             if (mobile === '') {
                 alert("Please Enter Mobile Number");
@@ -474,7 +471,7 @@
 
             const mobile = document.getElementById("mobilesms").value;
 
-            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' };
+            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '','message':'' };
 
             if (mobile === '') {
                 alert("Please Enter Mobile Number");
@@ -507,7 +504,7 @@
 
             const mobile = document.getElementById("mobileservice").value;
 
-            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' };
+            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '','message':'' };
 
             if (mobile === '') {
                 alert("Please Enter Mobile Number");
@@ -540,7 +537,7 @@
 
             const mobile = document.getElementById("mobilepricewhatsapp").value;
 
-            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' };
+            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '', 'message':'' };
 
             if (mobile === '') {
                 alert("Please Enter Mobile Number");
@@ -573,7 +570,7 @@
 
             const mobile = document.getElementById("mobilepricesms").value;
 
-            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' };
+            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '','message':'' };
 
             if (mobile === '') {
                 alert("Please Enter Mobile Number");
@@ -607,7 +604,7 @@
 
             const mobile = document.getElementById("mobilepriceobd").value;
 
-            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '' };
+            const mobilenumber = { 'name': '', 'mobile': mobile, 'email': '','message':'' };
 
             if (mobile === '') {
                 alert("Please Enter Mobile Number");
@@ -643,7 +640,7 @@
             const name = document.getElementById("namecontact").value
             const message = document.getElementById("messagecontact").value
 
-            const mobilenumber = { 'name': name, 'mobile': mobile, 'email': email };
+            const mobilenumber = { 'name': name, 'mobile': mobile, 'email': '','message':message };
 
             if (mobile === '') {
                 alert("Please Enter Mobile Number");
@@ -676,7 +673,7 @@
             const email = document.getElementById("emailpopup").value;
             const name = document.getElementById("namepopup").value
 
-            const mobilenumber = { 'name': name, 'mobile': mobile, 'email': email };
+            const mobilenumber = { 'name': name, 'mobile': mobile, 'email': email, 'message':'' };
 
             if (mobile === '') {
                 alert("Please Enter Mobile Number");
