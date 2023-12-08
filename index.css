@@ -168,6 +168,12 @@ body{
     text-align: center;
     padding: 0.5vw;
     margin-bottom: 3vw;
+    box-shadow: 1px 1px 5px;
+    border-radius: 0.5vw;
+    transition: transform 0.3s ease;
+}
+.obd-container:hover {
+    transform: scale(1.1);
 }
 .obd-container h1{
     font-size: 1.8vw;
@@ -565,10 +571,11 @@ body{
     background-color: rgba(118, 64, 232, 1);
     border: none;
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     height: 3vw;
     border-radius: 0.5vw;
     margin-left: 1vw;
+    width: 40%;
 }
 .user-form-pricing{
     margin: 1vw;
@@ -654,8 +661,9 @@ body{
     border: none;
     color: white;
     height: 4vw;
+    width: 35%;
     border-radius: 0.5vw;
-    font-size: 2vw;
+    font-size: 1.2vw;
 }
 .contact-us-image{
     width: 100%;
@@ -668,9 +676,15 @@ body{
     background-image: url("images/footerbackground.png");
     background-size: cover;
     display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 5vw;
 }
 .pages-container{
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .pages-container h1{
     color: white;
@@ -679,16 +693,30 @@ body{
 .pages-container p{
     font-size: 1.4vw;
     color: white;
+    line-height: 0.5vw;
 }
 .contact-container{
     width: 30%;
 }
 .contact-container p{
     color: white;
+    font-size: 1.5vw;
+}
+.contact-container h1{
+    color: white;
     font-size: 2vw;
 }
 .logo-container{
     width: 30%;
+    margin-top: 1vw;
+}
+.logo-container p {
+    font-size: 1.5vw;
+    color: white;
+}
+.logo-container h1{
+    font-size: 2vw;
+    color: white;
 }
 .call-us-at{
     background-color: #000000;
@@ -696,4 +724,12 @@ body{
     font-size: 1.5vw;
     width: max-content;
     padding: 1.5vw;
+}
+.copyright{
+    color: white;
+    font-size: 1.7vw;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    
 }
