@@ -93,6 +93,7 @@ body{
     height: 3.5vw;
     border-radius: 0.8vw;
     margin-left: 15vw;
+    padding-left: 1.2vw;
 }
 .submit-button{
     background-color: rgba(118, 64, 232, 1);
@@ -315,6 +316,7 @@ body{
     border-radius: 01vw;
     border: 1px solid;
     font-size: 1.5vw;
+    padding-left: 1.2vw;
 }
 .popup-content button{
     border: none;
@@ -388,6 +390,7 @@ body{
     box-shadow:1px 1px 5px 0px;
     border-radius: 0.5vw;
     width: 50%;
+    padding-left: 1.2vw;
 }
 .service-submit-button{
     background-color: rgba(118, 64, 232, 1);
@@ -452,6 +455,7 @@ body{
     box-shadow: 1px 1px 8px;
     border-radius: 0.5vw;
     margin-right: 3vw;
+    padding-left: 1.2vw;
 }
 .obd-submit{
     background-color: rgba(118, 64, 232, 1);
@@ -549,12 +553,13 @@ body{
     font-size: 2vw;
 }
 .input-pricing{
-    width: 50%;
+    width: 45%;
     font-size: 1vw;
     height: 3vw;
     border: none;
     box-shadow: 1px 1px 10px;
     border-radius: 0.5vw;
+    padding-left: 1.2vw;
 }
 .button-pricing{
     background-color: rgba(118, 64, 232, 1);
@@ -631,6 +636,7 @@ body{
     height: 4vw;
     border: solid 1px rgb(129, 128, 128);
     border-radius: 1vw;
+    padding-left: 1.2vw;
 }
 .contact-us-message{
     min-width: 80%;
